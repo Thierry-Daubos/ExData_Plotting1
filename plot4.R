@@ -26,6 +26,7 @@ Sys.setlocale("LC_TIME", "USA")
 # Open the pnj file device & create the plot with lines
 png(file = "plot4.png", width = 480, height = 480, bg = "transparent")
 
+# Sets the number of plots per page as two rows by two columns
 par(mfrow = c(2,2))
 
 with(h_p_c, {
